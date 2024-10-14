@@ -1,0 +1,237 @@
+@media (min-width: 640px) {
+  .tab {
+    position: relative;
+    top: 0px;
+    right: -234px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    transform: translateX(100%);
+    overflow: hidden;
+  }
+  
+  .tab:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 0 100px #5778cd;
+    border-radius: 0 0 0 100%;
+  }
+  
+  .tab2{
+    position:relative;
+    top: 2px;
+    left:-44px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab2:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 0 0 100%;
+  }
+
+  .tab3{
+    position:relative;
+    top: 2px;
+    right: 84px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab3:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 100% 0 0;
+    transform: rotate(90deg);
+  }  }
+
+  
+@media (min-width: 360px) and (max-width: 640px) {
+
+.tab {
+    position: relative;
+    top: 0px;
+    left: 196px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    transform: translateX(100%);
+    overflow: hidden;
+  }
+  
+  .tab:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 0 100px #5778cd;
+    border-radius: 0 0 0 100%;
+  }
+  
+  .tab2{
+    position:relative;
+    top: 2px;
+    left:-44px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab2:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 0 0 100%;
+  }
+
+  .tab3{
+    position:relative;
+    top: 2px;
+    right: 84px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab3:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 100% 0 0;
+    transform: rotate(90deg);
+  }
+}
+
+
+@media (min-width: 295px) and (max-width: 360px) {
+
+.tab {
+    position: relative;
+    top: 0px;
+    left: 151px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    transform: translateX(100%);
+    overflow: hidden;
+  }
+  
+  .tab:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 0 100px #5778cd;
+    border-radius: 0 0 0 100%;
+  }
+  
+  .tab2{
+    position:relative;
+    top: 2px;
+    left:-44px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab2:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 0 0 100%;
+  }
+
+  .tab3{
+    position:relative;
+    top: 2px;
+    right: 84px;
+    display:inline-block;
+    height:20px;
+    width:20px;
+    transform:translateX(100%);
+    overflow:hidden;
+  }
+  
+  .tab3:before{
+    content:"";
+    position:absolute;
+    top:0;left:0;height:100%;width:100%;
+    box-shadow:0 0 0 100px;
+    border-radius: 0 100% 0 0;
+    transform: rotate(90deg);
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 295px) {
+    
+    .tab2{
+      position:relative;
+      top: 2px;
+      left:-20px;
+      display:inline-block;
+      height:20px;
+      width:20px;
+      transform:translateX(100%);
+      overflow:hidden;
+    }
+    
+    .tab2:before{
+      content:"";
+      position:absolute;
+      top:0;left:0;height:100%;width:100%;
+      box-shadow:0 0 0 100px;
+      border-radius: 0 0 0 100%;
+    }
+  
+    .tab3{
+      position:relative;
+      top: 2px;
+      right: 60px;
+      display:inline-block;
+      height:20px;
+      width:20px;
+      transform:translateX(100%);
+      overflow:hidden;
+    }
+    
+    .tab3:before{
+      content:"";
+      position:absolute;
+      top:0;left:0;height:100%;width:100%;
+      box-shadow:0 0 0 100px;
+      border-radius: 0 100% 0 0;
+      transform: rotate(90deg);
+    }
+  }
+  
+  
+  
